@@ -3,6 +3,8 @@ module.exports = {
     title: `Wootsbot Blog`,
     description: `Un taller para gatsby`,
     author: `@wootsbot`,
+    avatar: `src/images/favicon.png`,
+    biography: `Front-End JavaScript`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -18,13 +18,19 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            author
+            biography
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          authorName={data.site.siteMetadata.author}
+          biography={data.site.siteMetadata.biography}
+        />
         <div>
           <main>{children}</main>
           <footer>
