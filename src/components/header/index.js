@@ -8,8 +8,8 @@ import Author from './Author'
 
 const Header = ({ siteTitle, authorName, biography }) => {
   return (
-    <header>
-      <h1 className={styles.link}>
+    <header className={styles.root}>
+      <h1 className={styles.title}>
         <Link to="/">{siteTitle}</Link>
       </h1>
 

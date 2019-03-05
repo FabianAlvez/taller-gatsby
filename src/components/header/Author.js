@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Avatar from 'images/codea.png'
+import Avatar from '../../images/codea.png'
 
 import styles from './styles.module.scss'
 
